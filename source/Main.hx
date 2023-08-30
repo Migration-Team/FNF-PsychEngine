@@ -91,7 +91,7 @@ class Main extends Sprite
 		ClientPrefs.loadDefaultKeys();
 
 		#if android
-		addChild(new FlxGame(1280,720,initialState,60,60,skipSplash,startFullscreen))
+		addChild(new FlxGame(1280,720,initialState,60,60,skipSplash,startFullscreen));
 		#else
 		addChild(new FlxGame(game.width, game.height, game.initialState, #if (flixel < "5.0.0") game.zoom, #end game.framerate, game.framerate, game.skipSplash, game.startFullscreen));
 		#end
