@@ -46,6 +46,14 @@
       "version": null
     },
     {
+      "name": "hxCodec",
+      "type": "git",
+      "dir": null,
+      "ref": "master",
+      "url" :"https://github.com/SPLCoding/hxCodec-but-it-works-xd"
+    },
+    {
+      "name": "hscript",
       "name": "SScript",
       "type": "haxelib",
       "version": null
@@ -63,19 +71,12 @@
       "url": "https://github.com/Aidan63/linc_discord-rpc"
     },
     {
-      "name": "hxCodec",
-      "type": "git",
-      "dir": null,
-      "ref": "master",
-      "url" :"https://github.com/SPLCoding/hxCodec-but-it-works-xd.git"
-    },
-    {
       "name": "linc_luajit",
       "type": "git",
       "dir": null,
       "ref": "master",
       "url": "https://github.com/superpowers04/linc_luajit"
-    },
+    }.
     {
       "name": "extension-androidtools",
       "type": "git"
@@ -83,5 +84,5 @@
       "ref": "master",
       "url": "https://github.com/MAJigsaw77/extension-androidtools"
     }
-   ]
+  ]
 }
